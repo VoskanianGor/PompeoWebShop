@@ -1,3 +1,38 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Pacifio';
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(../fonts/LibreFranklin-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'PlayFairDisplay';
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+    font-weight: 400;
+}
+
+/* FONTS */
+
+/* RESET */
+
 html{
     font-size: 10px;
 }
