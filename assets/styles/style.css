@@ -56,7 +56,7 @@ li{
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
@@ -64,6 +64,7 @@ li{
     background: #FFFFFF;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 }
+
 .logo_pompeo {
     font-family: Pacifio;
     font-size: 3.3rem;
@@ -74,11 +75,11 @@ li{
 .links {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 61.7rem;
+    /* margin-left: 61.7rem; */
 }
-.links a{
+.link a{
     font-family: Poppins;
     font-weight: normal;
     font-size: 1.2rem;
@@ -89,8 +90,8 @@ li{
     margin-right: 4rem;
     transition: all 0.5s ease;
 }
-.links a:last-child{
-    margin-right: 0;
+.link a:last-child{
+    margin-right: 0px;
 }
 .links a:hover{
     color: #AC1313;
@@ -99,7 +100,8 @@ li{
     height: 3.8rem;
     width: 0.2rem;
     background: #EBEBEB;
-    margin: 0 1.9rem;
+    margin: 0 1.8rem;
+    
 }
 .header-cart {
     display: flex;
@@ -114,6 +116,76 @@ li{
     text-align: center;
     color: #000000;
     margin-left: 0.571rem;
+    transition: all 0.5s ease;
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .header{
+    max-width: 1024px;
+    align-items: center;
+    padding: 2.6rem 10rem; 
+    }
+    .link{
+        margin: 2rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .link a{
+        margin-right: 2rem;
+    }  
+}
+@media screen and (min-device-width : 480px) and (max-device-width : 768px){
+    .header-Vline{
+        display: none;
+    }
+    .header{
+        max-width: 768px;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.6rem 2rem; 
+    }
+    .links{
+        flex-direction: column;
+    }
+    .link{
+        margin: 2rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .link a{
+        font-size: 2rem;
+        margin: 5px;
+    }   
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .header-Vline{
+        display: none;
+    }
+    .header{
+        max-width: 480px;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.6rem 2rem; 
+    }
+    .links{
+        flex-direction: column;
+    }
+    .link{
+        margin: 2rem 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .link a{
+        font-size: 2rem;
+        margin: 5px;
+    }   
 }
 
 /* HEADER */
