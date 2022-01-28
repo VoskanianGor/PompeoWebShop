@@ -51,3 +51,70 @@ li{
 
 /* MAIN */
 
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2.6rem 14.4rem;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+.logo_pompeo {
+    font-family: Pacifio;
+    font-size: 3.3rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #000000;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 61.7rem;
+}
+.links a{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #6C6C6C;
+    margin-right: 4rem;
+    transition: all 0.5s ease;
+}
+.links a:last-child{
+    margin-right: 0;
+}
+.links a:hover{
+    color: #AC1313;
+}
+.header-Vline {
+    height: 3.8rem;
+    width: 0.2rem;
+    background: #EBEBEB;
+    margin: 0 1.9rem;
+}
+.header-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cart a{
+    font-family: LibreFranklin;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000000;
+    margin-left: 0.571rem;
+}
+
+/* HEADER */
+
