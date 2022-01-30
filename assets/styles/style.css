@@ -234,7 +234,7 @@ li{
     align-items: center;
     max-width: 1231px;
     margin: 0 auto;
-    padding: 12rem 14.4rem 21.5rem 14.4rem;
+    padding: 12rem 14.4rem;
 }
 
 .circle__textBlock{
@@ -266,10 +266,28 @@ li{
     top: -3.3rem;
 }
 
+.vertSpan{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DBDBDB;
+    transform: rotate(-90deg);
+}
+
+.circle-vertSpan-pos{
+    position: absolute;
+    left: 28px;
+    top: 390px;
+}
 .circle__items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 1172px;
+    margin-top: 4rem;
 }
 .circle__item{
     display: flex;
@@ -296,4 +314,29 @@ li{
 }
 .red-circle{
     background: #A21010;
+}
+
+.circle__info{
+    width: 1172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9rem;
+}
+.infoBlock{
+    max-width: 50.9rem;
+}
+.infoTitle{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    color: #000000;
+    max-width: 320px;
+}
+.info-prg{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    padding-top: 29px;
 }
