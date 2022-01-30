@@ -202,7 +202,6 @@ li{
     line-height: 68px;
     color: #AC1313;
     transition: all 1s ease;
-    transition: ;
 }
 .hero-button-pos{
     margin-top: 5.1rem;
@@ -338,6 +337,80 @@ li{
 .info-prg{
     font-size: 1.4rem;
     line-height: 2.4rem;
-    padding-top: 2.9rem;
+    padding-top: 2.4rem;
 }
 
+/* Featured Products */
+
+.products{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1231px;
+    margin: 0 auto;
+    padding: 22.1rem 14.4rem 14.8rem 14.4rem;
+}
+
+.products__itemBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.itemBlock__content{
+    width: 1172px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itemBlock__content-pos{
+    margin-top: 22rem;
+    flex-direction: row-reverse;
+}
+.itemBlock__graybox{
+    width: 500px;
+    height: 220px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.itemBlock__text{
+    width: 396px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-top{
+    padding-left: 8.8rem;
+}
+.text-bot{
+    padding-right: 27.3rem;
+}
+.itemBlock__title{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.details{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+.details:hover{
+    color: #6C6C6C;
+}
+/* Featured Products */
