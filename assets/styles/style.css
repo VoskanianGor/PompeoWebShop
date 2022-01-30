@@ -224,3 +224,76 @@ li{
 
 /* HERO */
 
+/* CIRCLE */
+
+.circle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1231px;
+    margin: 0 auto;
+    padding: 12rem 14.4rem 21.5rem 14.4rem;
+}
+
+.circle__textBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.circle__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 40.5rem;
+    padding-top: 4rem;
+}
+
+.Title{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 4.0rem;
+    line-height: 5.0rem;
+    text-align: center;
+    color: #000000;
+}
+
+.circle-andSymbl-pos{
+    position: relative;
+    top: -3.3rem;
+}
+
+.circle__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle__item{
+    display: flex;
+    flex-direction: column;
+    padding: 3.6rem 5.5rem;
+    background: #E4B366;
+    border: 30px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+}
+
+.item_span{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.orange-circle{
+    background: #F05B10;
+}
+.red-circle{
+    background: #A21010;
+}
