@@ -427,3 +427,27 @@ li{
     color: #6C6C6C;
 }
 /* Featured Products */
+
+/* COLLECTION */
+
+.collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery__item{
+    border-bottom: #EBEBEB 1px solid;
+    padding-bottom: 1.5rem;
+}
+.item__img{
+    padding-bottom: 2rem;
+}
+.price{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
