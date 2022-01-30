@@ -81,7 +81,12 @@ li{
     align-items: center;
     margin-right: 8.5rem;
 }
-.link a{
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link li{
     font-family: Poppins;
     font-weight: normal;
     font-size: 1.2rem;
@@ -366,10 +371,12 @@ li{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.itemBlock__content-pos{
     margin-top: 22rem;
+}
+.itemBlock__content:first-child{
+    margin-top: 0;
+}
+.itemBlock__content:nth-child(even){
     flex-direction: row-reverse;
 }
 .itemBlock__graybox{
@@ -383,7 +390,6 @@ li{
 
 .itemBlock__text{
     width: 396px;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -408,6 +414,7 @@ li{
     font-size: 14px;
     line-height: 24px;
     color: #000000;
+    margin-top: 2rem;
     transition: all 0.5s ease;
 }
 .details:hover{
