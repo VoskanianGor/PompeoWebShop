@@ -81,7 +81,12 @@ li{
     align-items: center;
     margin-right: 8.5rem;
 }
-.link a{
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link li{
     font-family: Poppins;
     font-weight: normal;
     font-size: 1.2rem;
@@ -268,7 +273,7 @@ li{
 .vertSpan{
     font-family: Poppins;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 3.4rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -337,6 +342,88 @@ li{
 .info-prg{
     font-size: 1.4rem;
     line-height: 2.4rem;
-    padding-top: 2.9rem;
+    padding-top: 2.4rem;
 }
 
+/* Featured Products */
+
+.products{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1231px;
+    margin: 0 auto;
+    padding: 22.1rem 14.4rem 14.8rem 14.4rem;
+}
+
+.products-vertSpan-pos{
+    position: absolute;
+    right: 0rem;
+    top: 50rem;
+}
+
+.products__itemBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.itemBlock__content{
+    width: 1172px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 22rem;
+}
+.itemBlock__content:first-child{
+    margin-top: 0;
+}
+.itemBlock__content:nth-child(even){
+    flex-direction: row-reverse;
+}
+.itemBlock__graybox{
+    width: 500px;
+    height: 220px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.itemBlock__text{
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-top{
+    padding-left: 8.8rem;
+}
+.text-bot{
+    padding-right: 27.3rem;
+}
+.itemBlock__title{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.details{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+}
+.details:hover{
+    color: #6C6C6C;
+}
+/* Featured Products */
