@@ -202,7 +202,10 @@ li{
     line-height: 68px;
     color: #AC1313;
     transition: all 1s ease;
+<<<<<<< HEAD
     transition: ;
+=======
+>>>>>>> dev
 }
 .hero-button-pos{
     margin-top: 5.1rem;
@@ -224,6 +227,7 @@ li{
 
 /* HERO */
 
+<<<<<<< HEAD
 /* CIRCLE */
 
 .circle{
@@ -341,3 +345,5 @@ li{
     padding-top: 2.9rem;
 }
 
+=======
+>>>>>>> dev
