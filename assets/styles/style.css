@@ -273,7 +273,7 @@ li{
 .vertSpan{
     font-family: Poppins;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 3.4rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -356,6 +356,12 @@ li{
     max-width: 1231px;
     margin: 0 auto;
     padding: 22.1rem 14.4rem 14.8rem 14.4rem;
+}
+
+.products-vertSpan-pos{
+    position: absolute;
+    right: 0rem;
+    top: 50rem;
 }
 
 .products__itemBlock{
