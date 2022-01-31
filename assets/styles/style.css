@@ -535,3 +535,117 @@ li{
 }
 .ready-button-pos{
     margin-top: 3rem;
+}
+/* NEWS */
+.news{
+    position: relative;
+    max-width: 1231px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12rem 14.4rem 16.2rem 14.4rem;
+}
+.news-vertSpan-pos{
+    position: absolute;
+    top: 31.5rem;
+    right: -5.7rem;
+    transition: all 0.5s ease;
+}
+.news__img{
+    width: 80px;
+    height: 80px;
+}
+.newsUpTitle{
+    font-weight: 400;
+    padding-top: 4rem;
+}
+.newsTitle{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.newsTitle-pos{
+    padding: 4rem 0 6.3rem 0;
+}
+.news-andSymbl-pos{
+    position: relative;
+    top: -0.8rem;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.news__form{
+    display: flex;
+    flex-direction: row;
+}
+
+.newsInput{
+    width: 32rem;
+    border: 1px solid #EBEBEB;
+    padding-left: 4rem;
+    outline: none;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #A1A1A1;
+}
+
+.newsButton{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 1.3rem 5rem;
+    border: none;
+    margin-left: 0.4rem;
+    transition: all 0.5s ease;
+}
+.newsButton:hover{
+    box-shadow: #8534FF 0 5px;
+    transform: scale(0.97);
+}
+.newsButton:hover + .vertSpan{
+    color: #A21010;
+}
+
+input[type="checkbox"]{
+    display: none;
+    
+}
+.newsCB-Label{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #A1A1A1;
+    transition: all 0.5s ease;
+}
+.newsCB-Label-pos{
+    margin-top: 4rem;
+}
+.newsCB-Label::before{
+    content: "";
+    display: inline-block;
+    padding: 6.5px 6.5px;
+    background: #6C6C6C;
+    margin-right: 1rem;
+    transition: all 0.5s ease;
+}
+input[type="checkbox"]:checked + label::before{
+    background: #8534FF;
+    transform: rotate(360deg);
+}
+
+.newsCB-Label:hover{
+    color: #4d4d4d;
+}
