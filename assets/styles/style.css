@@ -503,3 +503,35 @@ li{
 .hiddenButton:hover{
     background: rgba(255, 255, 255, 1);
 }
+
+/* READY */
+.ready{
+    background: url(../images/IMAGEstart-shopping-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1231px;
+    margin: 0 auto;
+    padding: 12rem 14.4rem;
+    display: flex;
+}
+.ready__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ready-prg{
+    margin-top: 1.3rem;
+    max-width: 42rem;
+}
+.readyPrgSelected{
+    color: #A21010;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+.readyPrgSelected:hover{
+    color: #15a4c1;
+}
+.ready-button-pos{
+    margin-top: 3rem;
