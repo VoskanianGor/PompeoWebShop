@@ -190,21 +190,23 @@
     </section>
 
     <section class="news">
-        <img src="./assets/images/IMAGEnews.png" alt="flypapper" class="news__img">
-        <h5 class="upTitle">Latest news</h5>
-        <div class="newsTitle"> Latest news 
-            <span class="andSymbl">&
-            </span>
-            New updates 
+        
+        <img class="news__img" src="./assets/images/IMAGEnews.png" alt="flypapper">
+        <h5 class="upTitle newsUpTitle">Latest news</h5>
+        <div class="newsTitle newsTitle-pos">Latest news 
+            <span class="andSymbl news-andSymbl-pos">&</span>
+        New updates 
         </div>
         <div class="subscribe">
             <form class="news__form" action="#" >
-                <input type="text">
-                <button></button>
-                <input type="checkbox" name="" id="">
+                <input class="newsInput" type="email" required placeholder="Enter your email">
+                <button class="newsButton">SUBSCRIBE</button>
+                <span class="vertSpan news-vertSpan-pos">Let's Get In touch</span>
             </form>
-            
+            <input type="checkbox" name="agreement" id="yon" value="yes" required>
+            <label class="newsCB-Label newsCB-Label-pos" for="yon">Sign up for our newsletter</label>
         </div>
+        
     </section>
 
 </body>
