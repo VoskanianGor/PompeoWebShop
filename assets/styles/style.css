@@ -427,3 +427,41 @@ li{
     color: #6C6C6C;
 }
 /* Featured Products */
+
+
+/* READY */
+.ready{
+    background: url(../images/IMAGEstart-shopping-bg.png);
+    /* background-size: cover; */
+    background-size:1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 12rem 0rem;
+    display: flex;
+}
+.ready__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 14.4rem;
+}
+.ready-prg{
+    margin-top: 1.3rem;
+    max-width: 42rem;
+}
+.readyPrgSelected{
+    color: #A21010;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+.readyPrgSelected:hover{
+    color: #15a4c1;
+}
+.ready-button-pos{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
