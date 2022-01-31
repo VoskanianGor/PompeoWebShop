@@ -713,20 +713,16 @@ input[type="checkbox"]:checked + label::before{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-.footer__detailsLink{
     font-family: LibreFranklin;
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 2.2rem;
+}
+.footer__detailsLink{ 
     color: #000000;
     padding-top: 2.3rem;
 }
 .details-prg{
-    font-family: LibreFranklin;
-    font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 2.2rem;
     color: #6C6C6C;
     padding-top: 2.3rem;
 }
