@@ -293,7 +293,8 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1172px;
+    flex-wrap: wrap;
+    max-width: 1172px;
     margin-top: 4rem;
 }
 .circle__item{
@@ -303,6 +304,10 @@ li{
     background: #E4B366;
     border: 30px solid rgba(0, 0, 0, 0.05);
     border-radius: 50%;
+    margin-right: 15rem;
+}
+.circle__item:last-child{
+    margin-right: 0;
 }
 
 .item_span{
@@ -324,15 +329,16 @@ li{
 }
 
 .circle__info{
-    width: 1172px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 9rem;
     padding: 0 1rem;
 }
 .infoBlock{
+    margin-top: 2.5rem;
     max-width: 50.9rem;
 }
 .infoTitle{

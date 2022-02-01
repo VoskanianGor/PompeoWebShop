@@ -16,7 +16,17 @@
         transform: scale(0.8);
         z-index: -1;
     }
-    
+    .circle__item{
+        margin: 0 1rem;
+    }
+    .circle__items{
+        width: 600px;
+        padding: 0 1rem;
+    }
+    .infoBlock{
+        margin-top: 2.5rem;
+    }
+
 }
 
 /* Landscape phones and portrait tablets */
@@ -63,6 +73,22 @@
     .hero-andSymbl-pos {
         left: -3rem;
         top: 10.25rem;
+    }
+    /* CIRCLE */
+
+    .circle__item{
+        margin-right: 0;
+    }
+    .circle__info{
+        width: 500px;
+    }
+    .infoBlock{
+        margin-bottom: 2.5rem;
+    }
+    .circle-vertSpan-pos {
+        position: absolute;
+        left: -1rem;
+        top: 66rem;
     }
 
 }
@@ -126,4 +152,37 @@
     .button:hover + .andSymbl{
         top: 37rem;
     }
+
+    /* CIRCLE */
+
+    .circle{
+        max-width: 480px;
+        padding: 12rem 4rem;
+    }
+    .circle__title {
+        flex-direction: column;
+    }
+    .circle-andSymbl-pos {
+        top: -0.3rem;
+    }
+    .circle-vertSpan-pos {
+        left: -9rem;
+        top: 74rem;
+    }
+    .circle__items{
+        width: 300px;
+    }
+    .circle__item{
+        margin-bottom: 2.5rem;
+    }
+    .circle__item:last-child{
+        margin-bottom: 0;
+    }
+    .circle__info{
+        width: 300px;
+    }
+    .infoBlock{
+        margin-bottom: 2.5rem;
+    }
+
 }
