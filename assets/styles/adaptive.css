@@ -20,13 +20,35 @@
         margin: 0 1rem;
     }
     .circle__items{
-        width: 600px;
+        width: 491px;
         padding: 0 1rem;
     }
     .infoBlock{
         margin-top: 2.5rem;
     }
 
+}
+
+@media  screen and (max-width: 1266px) {
+    .itemBlock__content{
+        width: 1172px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 22rem;
+    }
+    .itemBlock__content:nth-child(even) {
+        flex-direction: column;
+    }
+    .text-top{
+        padding-left: 0;
+    }
+    .text-bot{
+        padding-right: 0;
+    }
+    .itemBlock__text{
+        margin-top: 15rem;
+    }
 }
 
 /* Landscape phones and portrait tablets */
@@ -80,7 +102,7 @@
         margin-right: 0;
     }
     .circle__info{
-        width: 500px;
+        width: 325px;
     }
     .infoBlock{
         margin-bottom: 2.5rem;
@@ -90,7 +112,18 @@
         left: -1rem;
         top: 66rem;
     }
-
+    /* PRODUCTS */
+    .products {
+        padding: 22.1rem 4rem 14.8rem 4rem;
+    }
+    .itemBlock__content {
+        width: 480px;
+    }
+    .products-vertSpan-pos {
+        position: absolute;
+        right: -11.7rem;
+        top: 65rem;
+    }
 }
 
 
@@ -185,4 +218,27 @@
         margin-bottom: 2.5rem;
     }
 
+    /* PRODUCTS */
+    .products{
+        padding: 22.1rem 4rem 14.8rem 4rem;   
+        
+    }    
+    .itemBlock__content {
+        width: 320px;
+    }
+    .itemBlock__text {
+        width: 300px;
+    }
+    .itemBlock__graybox {
+        width: 280px;
+    }
+    .products-vertSpan-pos {
+        position: absolute;
+        right: -6.7rem;
+        top: 48rem;
+    }
+
+    .item__img {
+        width: 300px;
+    }
 }
