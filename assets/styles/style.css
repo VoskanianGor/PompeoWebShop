@@ -87,6 +87,10 @@ li{
     align-items: center;
 }
 .link li{
+    margin-right: 4rem;
+    transition: all 0.5s ease;
+}
+.link a{
     font-family: Poppins;
     font-weight: normal;
     font-size: 1.2rem;
@@ -94,8 +98,6 @@ li{
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: #6C6C6C;
-    margin-right: 4rem;
-    transition: all 0.5s ease;
 }
 .link a:last-child{
     margin-right: 0px;

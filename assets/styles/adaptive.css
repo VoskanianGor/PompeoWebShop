@@ -1,0 +1,72 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 991px) {
+    .header{
+        max-width: 991px;
+        padding: 1.6rem 5rem;
+        flex-direction: column;
+    }
+    .header-Vline{
+        height: 0.1rem;
+        width: 40rem;
+        background: #EBEBEB;
+        margin: 2rem 0;
+    }
+    .links{
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+    .link li:last-child{
+        margin: 0;
+    }
+    .link a{
+        font-size: 1.7rem;
+    }
+}
+
+
+/* Iphone 5 */
+@media screen and (max-width: 480px){
+    .header-Vline{
+        display: none;
+    }
+    .logo_pompeo{
+        font-size: 5rem;
+    }
+    .header{
+        max-width: 480px;
+        flex-direction: column;
+        padding: 1.6rem 2rem;
+    }
+    .links{
+        flex-direction: column;
+        margin: 0;
+    }
+    .link {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+    .link li{  
+        margin: 1rem 0;
+    }
+    .link a{
+        font-size: 2rem;
+    }
+    .header-cart{
+        transform: scale(1.3);
+    }
+}
