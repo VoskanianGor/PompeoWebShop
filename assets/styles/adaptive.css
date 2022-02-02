@@ -124,6 +124,9 @@
         right: -11.7rem;
         top: 65rem;
     }
+    .contacts{
+        flex-direction: column;
+    }
 }
 
 
@@ -240,5 +243,29 @@
 
     .item__img {
         width: 300px;
+    }
+    .collection-vertSpan-pos {
+        position: absolute;
+        top: 9.8rem;
+        left: 22.6rem;
+    }
+    .ready {
+        padding: 12rem 2rem;
+        
+    }
+    .news {
+        padding: 12rem 4rem 16.2rem 4rem;
+    }
+    .news__form {
+        flex-direction: column;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .footer {
+        padding: 10.7rem 0 0 0;
+    }
+    .footer__details {
+        width: 320px;
     }
 }

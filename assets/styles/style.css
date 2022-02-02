@@ -688,7 +688,8 @@ input[type="checkbox"]:checked + label::before{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 1231px;
+    max-width: 1231px;
+    width: 100%;
     padding: 6rem 1.5rem;
 }
 .contacts__item {
@@ -710,7 +711,8 @@ input[type="checkbox"]:checked + label::before{
     padding-top: 1rem;
 }
 .footer__details{
-    width: 1519px;
+    max-width: 1519px;
+    width: 100%;
     padding-bottom: 3rem;
     background: rgba(219, 219, 219, 0.1);
     border-top: rgba(219, 219, 219, 0.5) 1px solid;
