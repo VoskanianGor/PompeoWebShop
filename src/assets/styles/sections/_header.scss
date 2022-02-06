@@ -1,0 +1,62 @@
+.header {
+    @include container;
+    @extend .row;
+    padding: 2.5rem 0;
+
+    &__logo {
+        font-family: Pacifio;
+        font-size: 3.3rem;
+        line-height: 4rem;
+        color: #000000;
+    }
+
+    &__nav {
+        @extend .row;
+        justify-content: center;
+        max-width: 42rem;
+        width: 100%;      
+    }
+}
+.nav {  
+    &__links {
+        @extend .row;       
+            & li{
+                margin-right: 4rem;               
+                    &:last-child{
+                        margin-right: 0;
+                    }                   
+            }
+            & a{
+                font-family: Poppins;
+                font-weight: normal;
+                font-size: 1.2rem;
+                line-height: 2.2rem;
+                letter-spacing: 0.2rem;
+                color: #6C6C6C;
+                transition: all 0.5s ease;
+            }
+            & a:hover{                       
+                color: #AC1313;
+            }
+    }
+
+    &__Vline {
+        height: 3.8rem;
+        width: 0.1rem;
+        background: #EBEBEB;
+        margin: 0 1.8rem;    
+    }
+
+    &__cart {
+        @extend .row;
+        & a{
+            font-family: LibreFranklin;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            color: #000000;
+            transition: all 0.5s ease;
+            margin-left: 0.571rem;
+        }
+    }
+}
+
